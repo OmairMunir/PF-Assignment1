@@ -19,6 +19,8 @@ int main() {
 	float total = principle * pow(1 + (rateOfInterest / 100.0f), time);
 	float interest = total - principle;
 
+	cout << fixed;
+
 	cout << "The Interest after compounded for the amount "
 		<< principle << " for " << time << " years @ " << rateOfInterest << "% is: "
 		<< interest << "\n";
